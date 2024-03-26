@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "extends": ["plugin:prettier/recommended", "@nuxtjs/eslint-config-typescript"],
+  "plugins": ["prettier"],
+  "ignorePatterns": ["node_modules", "build", "dist", "public"],
+  "comma-dangle": "always",
+  "rules": {
+    "vue/multi-word-component-names": "off"
+  }
+}

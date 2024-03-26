@@ -1,0 +1,19 @@
+{
+  // Linter
+  "eslint.format.enable": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "prettier.configPath": ".prettierrc",
+
+  // Force tab width
+  "editor.tabSize": 4,
+
+  // For i18n
+  "i18n-ally.enabledFrameworks": ["vue"],
+  "i18n-ally.sortKeys": true,
+  "i18n-ally.localesPaths": ["./locales"],
+  "i18n-ally.pathMatcher": "{locale}.json",
+  "i18n-ally.keystyle": "nested",
+}
