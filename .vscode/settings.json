@@ -1,19 +1,17 @@
 {
-  // Linter
-  "eslint.format.enable": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "deno.enablePaths": ["supabase/functions"],
+  "deno.lint": true,
+  "deno.unstable": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
-  "prettier.configPath": ".prettierrc",
-
-  // Force tab width
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.tabSize": 4,
-
-  // For i18n
+  "eslint.format.enable": true,
   "i18n-ally.enabledFrameworks": ["vue"],
-  "i18n-ally.sortKeys": true,
+  "i18n-ally.keystyle": "nested",
   "i18n-ally.localesPaths": ["./locales"],
   "i18n-ally.pathMatcher": "{locale}.json",
-  "i18n-ally.keystyle": "nested",
+  "i18n-ally.sortKeys": true,
+  "prettier.configPath": ".prettierrc"
 }
